@@ -45,7 +45,17 @@ The list of subjects we're going to explore:
   - Glossary,
   - Exercises.
 ###    2. Variables and Statements <a id="subparagraph2"></a>
-  - coming soon ...
+  - Variables,  
+  - State diagrams,  
+  - Variable names,  
+  - The `import` statement,  
+  - Expressions and statements,  
+  - The `print` function,  
+  - Arguments,  
+  - Comments,  
+  - Debugging,  
+  - Glossary,  
+  - Exercises.
 ###    3. Functions <a id="subparagraph3"></a>
 ###    4. Functions and Interfaces <a id="subparagraph4"></a>
 ###    5. Conditionals and Recursion <a id="subparagraph5"></a>
