@@ -5,5 +5,3 @@ print(txt[0:3])
 
 short = "hello"
 print(short[1:4])
-
-pri
