@@ -18,13 +18,16 @@ print("The numbers are now: ", numbers)
 numbers.extend([123, 456])
 print("The numbers are now: ", numbers)
 
-numbers.insert(-1, 'three')
+numbers.insert(2, 'three')
 
 # Removing values from the list
 print("Length of 'numbers' list is: ", len(numbers))
+print("The numbers are now: ", numbers)
 
+# 'pop' needs an index of data
 numbers.pop(6)
 print("The numbers are now: ", numbers)
 
+# 'remove' needs a value
 numbers.remove(67)
 print("The numbers are now: ", numbers)
