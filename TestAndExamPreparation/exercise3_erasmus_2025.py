@@ -1,6 +1,4 @@
-some_number = "10.1"
+some_number = 2 / 10
 
-if some_number.isnumeric():
-    result = float(some_number) * 2
-    print("Result is ", result)
+print(f"{some_number:.0%}")
 
