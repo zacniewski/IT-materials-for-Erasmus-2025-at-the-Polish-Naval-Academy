@@ -115,3 +115,183 @@ numbers and displaying the results.
 
 <br>
 
+#### Exercise 12
+Write a function called `greet()` that takes one string parameter
+called name and displays the text `"Hello <name>!"`, where `<name>` is
+replaced by the value of the name parameter.  
+
+<br>
+
+#### Exercise 13
+Write a program that defines two functions:
+  - `convert_cel_to_far()`, which takes one float parameter representing degrees Celsius and returns 
+a float representing the same temperature in degrees Fahrenheit using the following formula:
+F = C * 9/5 + 32
+  - `convert_far_to_cel()`, which takes one float parameter representing degrees Fahrenheit and returns a float representing the same
+temperature in degrees Celsius using the following formula:
+C = (F - 32) * 5/9  
+The program should do the following:
+
+1. Prompt the user to enter a temperature in degrees Fahrenheit and
+then display the temperature converted to Celsius
+2. Prompt the user to enter a temperature in degrees Celsius and then
+display the temperature converted to Fahrenheit
+3. Display all converted temperatures rounded to two decimal places  
+Here’s a sample run of the program:  
+```
+Enter a temperature in degrees F: 72
+72 degrees F = 22.22 degrees C
+
+Enter a temperature in degrees C: 37
+37 degrees C = 98.60 degrees F
+```
+
+<br>
+
+#### Exercise 14
+Write a `for` loop that prints out the integers from 2 to 10, each on
+a new line, using `range()`.
+
+<br>
+
+#### Exercise 15
+Write a `while` loop that prints out the integers from 2 to 10. 
+> Hint: You’ll need to create a new integer first.
+
+<br>
+
+#### Exercise 16
+Write a function called `doubles()` that takes a number as its input
+and doubles it. Then use `doubles()` in a loop to double the number `2`
+three times, displaying each result on a separate line. Here’s some
+sample output:  
+```
+4
+8
+16
+```
+
+<br>
+
+#### Exercise 17
+For each of the following expressions, fill in the blank (indicated by
+__) with an appropriate Boolean comparator so that the expression
+evaluates to `True`:
+  3 __ 4  
+  10 __ 5  
+  "jack" __ "jill"  
+  42 __ "42"  
+> For example `print(1 == 1)` gives `True`, etc.
+
+<br>
+
+#### Exercise 18
+Write a program that prompts the user to enter a word using the
+input() function and compares the length of the word to the number five. 
+The program should display one of the following outputs,
+depending on the length of the user’s input:
+  • "Your input is less than 5 characters long"
+  • "Your input is greater than 5 characters long"
+  • "Your input is 5 characters long"  
+
+<br>
+
+#### Exercise 19
+Write a program that displays "I'm thinking of a number between 1
+and 10. Guess which one." Then use `input()` to get a number from
+the user. If the user inputs the number 3, then the program should
+display "You win!" For any other input, the program should display
+"You lose."  
+
+<br>
+
+#### Exercise 20
+Write a program that asks the user to input a positive integer and then prints out the factors of that number. 
+Here’s a sample run of the program with output:  
+```
+Enter a positive integer: 12
+1 is a factor of 12
+2 is a factor of 12
+3 is a factor of 12
+4 is a factor of 12
+6 is a factor of 12
+12 is a factor of 12
+```
+
+>Hint: You can use the % operator to get the
+remainder of dividing one number by another.
+
+<br>
+
+#### Exercise 21
+1. Create a tuple literal named `cardinal_numbers` that holds the strings
+"first", "second", and "third", in that order.  
+2. Using index notation and `print()`, display the string at index 1 in
+`cardinal_numbers`.  
+3. In a single line of code, unpack the values in `cardinal_numbers` into
+three new strings named `position1`, `position2`, and `position3`. Then
+print each value on a separate line.  
+4. Using `tuple()` and a string literal, create a tuple called `my_name` that
+contains the letters of your name.  
+5. Check whether the character "a" is in `my_name` using the `in` keyword.  
+6. Create a new tuple containing all but the first letter in `my_name` using
+slice notation.  
+
+<br>
+
+#### Exercise 22
+1. Create a list named food with two elements, "rice" and "beans".  
+2. Append the string "broccoli" to food using `.append()`.    
+3. Add the strings "bread" and "pizza" to food using `.extend()`.  
+4. Print the first two items in the food list using `print()` and slice notation.  
+5. Print the last item in food using `print()` and index notation.  
+6. Create a list called `breakfast` from the string "eggs, fruit, orange
+juice" using the string `.split()` method.  
+7. Verify that breakfast has three items using `len()`.
+
+<br>
+
+#### Exercise 23
+1. Create an empty dictionary named `captains`.  
+2. Using square bracket notation, enter the following data into the
+dictionary one item at a time:  
+  'Enterprise': 'Picard'  
+  'Voyager': 'Janeway'  
+  'Defiant': 'Sisko'  
+3. Write two `if` statements that check if "Enterprise" and "Discovery"
+exist as keys in the dictionary. Set their values to "unknown" if the
+key does not exist.  
+4. Write a `for` loop to display the ship and captain names contained
+in the dictionary. For example, the output should look something
+like this:  
+
+```
+The Enterprise is captained by Picard.
+```
+
+5. Delete "Discovery" from the dictionary.
+
+<br>
+
+#### Exercise 24
+The following code defines a function `add_underscores()` that takes a
+single string object word as an argument and returns a new string containing a copy of word with each character surrounded by underscores.
+For example, `add_underscores("python")` should return `"_p_y_t_h_o_n_"`.  
+
+Here’s the buggy code:  
+```python
+def add_underscores(word):
+    new_word = "_"
+    for i in range(len(word)):
+        new_word = word[i] + "_"
+    return new_word
+
+phrase = "hello"
+print(add_underscores(phrase))
+```
+
+Run the program. The expected output is `_h_e_l_l_o_`, but instead
+all you see is `o_`, or the letter `"o"` followed by a single underscore.  
+Please, fix it!  
+
+
