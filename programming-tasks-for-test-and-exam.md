@@ -20,8 +20,8 @@ result.
 <br>
 
 #### Exercise 3
-Repeat the previous exercise, but use a floating-point number and
-`float()`.
+Print the result of fraction calculation (for example `2 / 10`) as a percentage with no decimal places.
+The output should look like `20%` in the aforementioned case.
 
 
 <br>
@@ -107,5 +107,11 @@ then the output should look like this:
 
 <br>
 
-#### Exercises 11-50
-> Coming soon ...
+#### Exercise 11
+Write a function called `cube()` that takes one number parameter
+and returns the value of that number raised to the third power.
+Test the function by calling your `cube()` function on a few different
+numbers and displaying the results.  
+
+<br>
+
