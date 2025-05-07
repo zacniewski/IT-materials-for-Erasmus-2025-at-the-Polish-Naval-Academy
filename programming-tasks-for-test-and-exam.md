@@ -294,4 +294,181 @@ Run the program. The expected output is `_h_e_l_l_o_`, but instead
 all you see is `o_`, or the letter `"o"` followed by a single underscore.  
 Please, fix it!  
 
+<br>
+
+
+#### Exercise 25
+A factor of a positive integer `n` is any positive integer less than or equal
+to `n` that divides `n` with no remainder. 
+For example, 3 is a factor of 12 because 12 divided by 3 is 4 with no
+remainder.   
+However, 5 is not a factor of 12 because 5 goes into 12 twice
+with a remainder of 2.
+Write a program that asks the user to input a positive integer and then prints out the factors of that number.   
+Here’s a  sample run of the program with output:  
+```bash 
+Enter a positive integer: 12
+1 is a factor of 12
+2 is a factor of 12
+3 is a factor of 12
+4 is a factor of 12
+6 is a factor of 12
+12 is a factor of 12
+```
+> Hint: You can use the % operator to get the remainder of dividing one number by another.  
+
+
+<br>
+
+#### Exercise 26
+Using break, write a program that repeatedly asks the user for some
+input and quits only if the user enters "q" or "Q".  
+
+<br>
+
+
+#### Exercise 27
+Using `continue`, write a program that loops over the numbers 1 to 50 and prints all numbers that are not multiples of 3.  
+
+<br>
+
+
+#### Exercise 28
+Write a program that repeatedly asks the user to input an integer.  
+If the user enters an integer, the program should print this integer.  
+If the user enters something other than an integer, then the
+program should display the message "Try again."  
+
+<br>
+
+
+#### Exercise 29
+ Write a program that asks the user to input a string and an integer
+`n`, then displays the character at index `n` in the string.  
+
+<br>
+
+
+#### Exercise 30
+Here is the dictionary with the capitals of USA states:  
+```bash
+capitals_dict = {
+'Alabama': 'Montgomery',
+'Alaska': 'Juneau',
+'Arizona': 'Phoenix',
+'Arkansas': 'Little Rock',
+'California': 'Sacramento',
+'Colorado': 'Denver',
+'Connecticut': 'Hartford',
+'Delaware': 'Dover',
+'Florida': 'Tallahassee',
+'Georgia': 'Atlanta',
+}
+```
+Pick a random state name from the dictionary and assign both
+the state and its capital to two variables. You’ll need to import the
+random module at the top of your program.
+Then display the name of the state to the user and ask them to enter
+the capital. If the user answers incorrectly, then repeatedly ask them
+for the capital until they either enter the correct answer or type "exit".
+If the user answers correctly, then display "Correct" and end the program. However, if the user exits without guessing correctly, display
+the correct answer and the word "Goodbye".
+
+<br>
+
+
+#### Exercise 31
+Consider the following nested list definition:  
+```python
+x = [10, [3.141, 20, [30, 'baz', 2.718]], 'foo']
+```
+
+What is the expression that returns the `z` in `baz`?  
+
+<br>
+
+
+#### Exercise 32
+Write the Python code that prints out Captain Kirk’s email address from the employee dictionary below:  
+```python
+employee = {
+  "id": 1701,
+  "name": "James T Kirk",
+  "email": "jtkirk@starfleet.com",
+  "position": "captain",
+}
+```
+
+<br>
+
+
+#### Exercise 33
+Write a program that accepts an integer `n` and computes the value of `n + nn + nnn`. 
+
+<br>
+
+
+#### Exercise 34
+Write a Python program to print all even numbers from a given list of numbers in the same order and stop printing any after 237 in the sequence.
+Sample numbers list:  
+
+```python
+numbers = [    
+    386, 462, 47, 418, 907, 344, 236, 375, 823, 566, 597, 978, 328, 615, 953, 345, 
+    399, 162, 758, 219, 918, 237, 412, 566, 826, 248, 866, 950, 626, 949, 687, 217, 
+    815, 67, 104, 58, 512, 24, 892, 894, 767, 553, 81, 379, 843, 831, 445, 742, 717, 
+    958,743, 527
+    ]
+```
+
+<br>
+
+
+#### Exercise 35
+Write a Python program that prints out all colors from `color_list_1` that are not present in `color_list_2`.
+Test Data:
+```python
+color_list_1 = set(["White", "Black", "Red"])
+color_list_2 = set(["Red", "Green"])
+```
+
+Expected Output:
+```bash
+{'Black', 'White'}
+```
+
+<br>
+
+
+#### Exercise 36
+Write a Python program that returns `True` if the two given integer values are equal or their sum or difference is 5. 
+
+<br>
+
+
+#### Exercise 37
+Write a Python program to calculate the distance between the points (x1, y1) and (x2, y2). 
+
+<br>
+
+
+#### Exercise 38
+Write a Python program to test whether a passed letter is a vowel or not.  
+
+<br>
+
+
+#### Exercise 39
+Write a Python program that accepts a sequence of comma-separated numbers from the user and generates a list and a tuple of those numbers.
+```bash
+Sample data : 3, 5, 7, 23
+Output :
+List : ['3', ' 5', ' 7', ' 23']
+Tuple : ('3', ' 5', ' 7', ' 23')
+```
+
+<br>
+
+
+
 
