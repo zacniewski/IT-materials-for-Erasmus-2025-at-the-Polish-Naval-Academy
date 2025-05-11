@@ -1,65 +1,57 @@
 # Image Acquisition in Image Processing
 
 ## **What is Image Acquisition?**
-The process of capturing visual data (images/videos) from physical sources (cameras, scanners, sensors) and converting them into **digital form** for processing.
+The process of capturing visual data from physical sources (cameras, scanners) and converting it into digital pixels.
 
 ---
 
 ## **Key Components**
-1. **Sensors**: Capture light/intensity (e.g., CCD/CMOS in cameras).  
-2. **Lens**: Focuses light onto the sensor.  
-3. **Analog-to-Digital Converter (ADC)**: Converts analog signals to digital pixels.  
+1. **Sensors** (CCD/CMOS)  
+2. **Lens**  
+3. **ADC** (Analog-to-Digital Converter)  
 
-![Image Acquisition System](https://raw.githubusercontent.com/opencv/opencv/master/doc/imaging/sensor_model.png)  
-*(Simplified diagram of an image acquisition pipeline)*
+![Acquisition Pipeline](https://github.com/opencv/opencv/raw/4.x/doc/pics/tutorial_sensor_block_diagram.png)  
+*(Image credit: OpenCV documentation)*
 
 ---
 
 ## **Types of Image Acquisition**
-
 ### 1. **Cameras**
-- **Digital Cameras**: Capture RGB images (e.g., DSLRs, smartphones).  
-- **Thermal Cameras**: Detect infrared radiation.  
-- **Microscopes**: High-resolution imaging.  
+- **Digital** (RGB)  
+- **Thermal** (Infrared)  
+- **Microscopic**  
 
-![Camera Types](https://raw.githubusercontent.com/wiki/opencv/opencv/images/camera_types.png)  
-*(Common camera types)*
+![Camera Types](https://github.com/opencv/opencv/raw/4.x/doc/pics/tutorial_camera_types.png)
 
 ### 2. **Scanners**
-- Flatbed scanners (documents, photos).  
-- 3D scanners (for depth maps).  
-
-### 3. **Satellite/Sensors**
-- Remote sensing (e.g., Landsat).  
+- Flatbed (documents)  
+- 3D (depth sensing)  
 
 ---
 
 ## **Image Representation**
 | Type        | Example | Description |
 |-------------|---------|-------------|
-| **Grayscale** | ![Grayscale](https://raw.githubusercontent.com/wiki/opencv/opencv/images/lena_gray.png) | Single channel (0=black, 255=white). |
-| **Color (RGB)** | ![Color](https://raw.githubusercontent.com/wiki/opencv/opencv/images/lena_color.png) | 3 channels (Red, Green, Blue). |
-| **Binary** | ![Binary](https://raw.githubusercontent.com/wiki/opencv/opencv/images/lena_threshold.png) | Pixels as 0 or 1 (after thresholding). |
+| **Grayscale** | ![Grayscale](https://github.com/opencv/opencv/raw/4.x/samples/data/lena.jpg) | 1 channel (0-255) |
+| **Color** | ![Color](https://github.com/opencv/opencv/raw/4.x/samples/data/lena.jpg) | 3 channels (BGR) |
+| **Binary** | ![Binary](https://github.com/opencv/opencv/raw/4.x/doc/pics/tutorial_threshold_binary.png) | 0 or 1 pixels |
 
 ---
 
 ## **Factors Affecting Quality**
-1. **Resolution**: Higher = more detail (e.g., 4K vs. 720p).  
-2. **Lighting**: Poor light → noise.  
-3. **Sensor Sensitivity**: ISO settings.  
+1. **Resolution**  
+2. **Lighting Conditions**  
+3. **Sensor Noise**  
 
-![Noise Example](https://raw.githubusercontent.com/wiki/opencv/opencv/images/image_noise.png)  
-*(Gaussian noise in a low-light image)*
+![Noise Example](https://github.com/opencv/opencv/raw/4.x/doc/pics/tutorial_noise_example.png)
 
 ---
 
-## **Example Code (Python/OpenCV)**
+## **Python Code Example**
 ```python
 import cv2
-
-# Capture from webcam
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(0)  # Camera capture
 ret, frame = cap.read()
-if ret:
-    cv2.imwrite("captured_image.jpg", frame)
+cv2.imwrite("capture.jpg", frame)
 cap.release()
+```
