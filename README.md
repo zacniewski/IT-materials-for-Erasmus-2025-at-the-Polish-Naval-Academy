@@ -35,45 +35,9 @@ The topics are based on the "Think Python" book, authored by Allen Downey:
 
 ## 2. Computer graphics
 
-The topics are based on the syllabus to the "Computer Graphics" subject (see the attached pdf file).  
-Details are available [here](ComputerGraphics/).  
-
-### Day 1 - "Introduction to Python and its graphics and images libraries (lecture)"  
-
-  - book on [GitHub](https://allendowney.github.io/ThinkPython/index.html) with Jupyter notebooks,    
-  - Python [resources](https://zacniewski.github.io/python-resources/) suggested by me :smiley:,    
-
-### Day 2 - "Retrieving, processing, and storing images, manipulating pixels"  
-  - link ...
-
-
-### Day 3 - "Transformations – rotating, cropping, scaling, flipping and translating (lecture)"  
-  - link ...
-
-
-### Day 4 - "Image arithmetic, masking and color spaces (lecture)"  
-  - link ...
-
-
-### Day 5 - "Histograms, blurring, smoothing and thresholding (lecture)"  
-  - link ...
-
-### Day 6 - "Basic image operations on images with OpenCV (lab)"  
-  - link ...
-
-
-### Day 7 - "Working with image arithmetic, masking and color spaces (lab)"  
-  - link ...
-
-
-### Day 8 - "Working with histograms, blurring, smoothing and thresholding (lab)"  
-  - link ...
-
-
-### Day 9 - "Working with gradients and edge detection (lab)"  
-  - link ...
-
-
-### Day 10 - "Working with video files (lab)"  
-  - link ...
+1. All materials are stored in the `ComputerGraphics` directory.  You can download them and use locally on your machine.  
+2. The topics are mostly based on the syllabus to the "Computer Graphics" subject (see the attached pdf file).  
+3. There are files for every day of he course in the directory with the given number of the day.  
+4. Days 1-5 are mainly lectures. There are `pdf` and `ppt` files for every day and some additional resources.  
+5. Days 6-10 are mainly exercises. There are Python scripts to get more practical experience and approach with Image Processing and Computer Graphics.  
 
