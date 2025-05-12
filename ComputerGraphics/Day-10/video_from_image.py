@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-imgfile = "obrazki/bird.jpg"
+imgfile = "images/bird.jpg"
 video_dim = (1280, 720)
 fps = 25
 duration = 3.0
