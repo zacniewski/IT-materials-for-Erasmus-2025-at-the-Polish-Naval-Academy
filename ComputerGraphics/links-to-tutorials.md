@@ -17,9 +17,15 @@
 8. OpenCV Thresholding ( cv2.threshold ) - [link](https://pyimagesearch.com/2021/04/28/opencv-thresholding-cv2-threshold/),  
 
 
-### Installation of OpenCV and other packages
+### Installation of OpenCV and other packages in virtual environments
 
-1. Creating Python Virtual Environment in Windows and Linux - [link](https://www.geeksforgeeks.org/creating-python-virtual-environment-windows-linux/),  
 
-2.  Step-by-Step Guide To Install OpenCV For Python (Linux) - [link](https://dev.to/codetradeindia/step-by-step-guide-to-install-opencv-for-python-91m),  
+1. Python installation for different operating systems - [link](https://tutorial.djangogirls.org/en/python_installation/),  
+
+2. Creating Python Virtual Environment in Windows and Linux (look at the 'Virtual environment' part) - [link](https://tutorial.djangogirls.org/en/django_installation/),  
+
+3. Creating Python Virtual Environment in Windows and Linux - [link](https://www.geeksforgeeks.org/creating-python-virtual-environment-windows-linux/),  
+
+4.  Step-by-Step Guide To Install OpenCV For Python (Linux) - [link](https://dev.to/codetradeindia/step-by-step-guide-to-install-opencv-for-python-91m),  
+
 
