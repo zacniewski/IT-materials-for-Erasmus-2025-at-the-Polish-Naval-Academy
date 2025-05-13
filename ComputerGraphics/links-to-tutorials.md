@@ -1,6 +1,8 @@
 ### Image Processing with OpenCV  
 
-1. All Image Processing tutorials - [link](https://pyimagesearch.com/category/image-processing/),  
+1. All Image Processing tutorials on PyImageSearch - [link](https://pyimagesearch.com/category/image-processing/),  
+
+1a. Getting Started with OpenCV on LearnOpenCV - [link](https://learnopencv.com/getting-started-with-opencv/),  
 
 2. OpenCV Load Image (cv2.imread) - [link](https://pyimagesearch.com/2021/01/20/opencv-load-image-cv2-imread/),  
 
