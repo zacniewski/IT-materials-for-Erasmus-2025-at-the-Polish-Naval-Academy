@@ -1,20 +1,20 @@
 ### Image Processing with OpenCV  
 
 1. All Image Processing tutorials on PyImageSearch - [link](https://pyimagesearch.com/category/image-processing/),  
+ 
+2. Getting Started with OpenCV on LearnOpenCV - [link](https://learnopencv.com/getting-started-with-opencv/),  
 
-1a. Getting Started with OpenCV on LearnOpenCV - [link](https://learnopencv.com/getting-started-with-opencv/),  
+3. OpenCV Load Image (cv2.imread) - [link](https://pyimagesearch.com/2021/01/20/opencv-load-image-cv2-imread/),  
 
-2. OpenCV Load Image (cv2.imread) - [link](https://pyimagesearch.com/2021/01/20/opencv-load-image-cv2-imread/),  
+4. Basic Image Manipulations in Python and OpenCV: Resizing (scaling), Rotating, and Cropping - [link](https://pyimagesearch.com/2014/01/20/basic-image-manipulations-in-python-and-opencv-resizing-scaling-rotating-and-cropping/),  
 
-3. Basic Image Manipulations in Python and OpenCV: Resizing (scaling), Rotating, and Cropping - [link](https://pyimagesearch.com/2014/01/20/basic-image-manipulations-in-python-and-opencv-resizing-scaling-rotating-and-cropping/),  
+5. OpenCV Morphological Operations - [link](https://pyimagesearch.com/2021/04/28/opencv-morphological-operations/),  
 
-4. OpenCV Morphological Operations - [link](https://pyimagesearch.com/2021/04/28/opencv-morphological-operations/),  
+6. OpenCV Smoothing and Blurring - [link](https://pyimagesearch.com/2021/04/28/opencv-smoothing-and-blurring/),  
 
-5. OpenCV Smoothing and Blurring - [link](https://pyimagesearch.com/2021/04/28/opencv-smoothing-and-blurring/),  
+7. Image Gradients with OpenCV (Sobel and Scharr) - [link](https://pyimagesearch.com/2021/05/12/image-gradients-with-opencv-sobel-and-scharr/),  
 
-6. Image Gradients with OpenCV (Sobel and Scharr) - [link](https://pyimagesearch.com/2021/05/12/image-gradients-with-opencv-sobel-and-scharr/),  
-
-7. OpenCV Thresholding ( cv2.threshold ) - [link](https://pyimagesearch.com/2021/04/28/opencv-thresholding-cv2-threshold/),  
+8. OpenCV Thresholding ( cv2.threshold ) - [link](https://pyimagesearch.com/2021/04/28/opencv-thresholding-cv2-threshold/),  
 
 
 ### Installation of OpenCV and other packages
