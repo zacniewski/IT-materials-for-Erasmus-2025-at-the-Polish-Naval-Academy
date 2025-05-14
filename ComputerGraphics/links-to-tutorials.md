@@ -26,7 +26,7 @@
 
 3. Creating Python Virtual Environment in Windows and Linux - [link](https://www.geeksforgeeks.org/creating-python-virtual-environment-windows-linux/),  
 
-4.  Step-by-Step Guide To Install OpenCV For Python (Linux) - [link](https://dev.to/codetradeindia/step-by-step-guide-to-install-opencv-for-python-91m),  
+4. Step-by-Step Guide To Install OpenCV For Python (Linux) - [link](https://dev.to/codetradeindia/step-by-step-guide-to-install-opencv-for-python-91m),  
 
 
 ### Courses 

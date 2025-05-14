@@ -34,9 +34,12 @@ Image processing involves manipulating or analyzing digital images to enhance th
 ## **Example Code Snippet (Python/OpenCV)**
 ```python
 import cv2
+
 # Load image
 img = cv2.imread("image.jpg", 0)  # Grayscale
+
 # Edge detection
 edges = cv2.Canny(img, 100, 200)
 cv2.imshow("Edges", edges)
 cv2.waitKey(0)
+```
