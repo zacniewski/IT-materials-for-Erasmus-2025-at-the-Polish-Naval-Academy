@@ -29,3 +29,6 @@
 4.  Step-by-Step Guide To Install OpenCV For Python (Linux) - [link](https://dev.to/codetradeindia/step-by-step-guide-to-install-opencv-for-python-91m),  
 
 
+### Courses 
+
+1. Introduction to Computer Vision and Image Processing - [link](https://www.coursera.org/learn/introduction-computer-vision-watson-opencv/).  
