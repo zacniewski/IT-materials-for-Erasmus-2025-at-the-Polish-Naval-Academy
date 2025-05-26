@@ -1,4 +1,5 @@
 # IT materials for Erasmus 2025 at the Polish Naval Academy
+Materials for Erasmus students for classes on "Computer Programming" and "Computer Graphics"
 
 # Information 
 This website contains materials useful for the subjects:  
